@@ -53,7 +53,7 @@ function removeFile(){
 const newDirec = "NewDirectory";
 function createDir() {
 
-fs.mkdir(newDirec, (erro) => {
+fs.mkdir(newDirec, {recursive: true}, (erro) => {
     if(erro){
         console.error("Erro ao criar diretório");
         return;
@@ -62,9 +62,21 @@ fs.mkdir(newDirec, (erro) => {
  
     });
 }
+
+function removeDir(){
+    fs.rm(newDirec, {recursive: true}, (erro) => {
+        if(erro) {
+            console.error("Não foi possível excluir diretório: ");
+            return;
+        }
+        console.log("Diretório excluido com sucesso.")
+    })
+
+}
 // --- Chama as Functions --- //
 // createFile();
 // readFile();
 // addContent();
 // removeFile();
-createDir();
+// createDir();
+removeDir();
