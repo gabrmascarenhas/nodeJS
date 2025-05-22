@@ -1,0 +1,16 @@
+{
+  "name": "03.modules",
+  "version": "1.0.0",
+  "main": "operationalsystem.js",
+  "type": "module",
+  "scripts": {
+    "os": "nodemon operationalsystem.js",
+    "path": "nodemon path.js"
+  },
+  "author": "gabrmascarenhas",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
