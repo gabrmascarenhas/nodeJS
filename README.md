@@ -1,36 +1,52 @@
-# Estudos de Node.js
-## Esse repositório tem objetivo de armazenar os projetos usados em meus estudos de Node e é uma forma de acompanhar minha evolução.
+# 📚 Estudos de Node.js
+
+Este repositório tem como objetivo armazenar os projetos desenvolvidos durante meus estudos em **Node.js**, servindo como uma forma de acompanhar minha evolução.
 
 ---
 
-## Arquivos:
+## 📁 Projetos e Arquivos
 
-### 01.ServerNode:
-#### Primeira criação de servidor em Node.js
+### 📌 01. ServerNode
+**Descrição:**  
+Primeira criação de um servidor utilizando **Node.js**.
 
-### 02.FileSystem:
-#### Esse arquivo passa por várias funcionalidades derivadas do FileSystem, sendo elas:
-#####               - fs.writeFile (Criação de arquivos)
-#####               - fs.readFile (Lê o arquivo)
-#####               - fs.appendFile (Consegue modificar, atualizar e adicionar dados em um arquivo existente)
-#####               - fs.removeFile (Remove arquivos)
-#####               - fs.mkdir (Cria diretórios)
-#####               - fs.WriteStream ()
-#####               - fs.readFileSync ()
+---
 
-### 03.Modules
-####                -os.arch (Mostra a arquitetura do Sistema Operacional (x64 ou x32))
-####                -os.cpus (Mostra informações sobre todos os CPUs)
-####                -os.totalmem (Pega a memória total em Bytes)
-####                -os.freemem (Similar ao totalmem(), porém mostra apenas a memória RAM que está livre.)
-####                -os.NewtworkInterfaces (Mostra informaçoes sobre as interfaces de rede.)
-####                -Também foi estudado Paths:
-#####                        - path.dirName (Nome do diretório)
-#####                        - path.baseName (Nome do arquivo)
-#####                        - path.extName (Extensão do arquivo)
-#####                        - path.join (Caminho combinado (Dir + File))
-#####                        - path.resolve (Caminho absoluto do arquivo (C:\Users\...\...\))
-<<<<<<< HEAD
-#####
-=======
->>>>>>> b6347172d2a3d7c998b16779da3b4692c200f10d
+### 📌 02. FileSystem
+**Descrição:**  
+Explora diversas funcionalidades do módulo `fs` (File System):
+
+- `fs.writeFile` – Criação de arquivos  
+- `fs.readFile` – Leitura de arquivos  
+- `fs.appendFile` – Atualização e adição de conteúdo em arquivos existentes  
+- `fs.unlink` – Remoção de arquivos  
+- `fs.mkdir` – Criação de diretórios  
+- `fs.createWriteStream` – Criação de um fluxo de escrita em arquivos  
+- `fs.readFileSync` – Leitura síncrona de arquivos
+
+---
+
+### 📌 03. Modules
+**Descrição:**  
+Estudo de três módulos nativos do Node.js: `os`, `path` e `crypto`.
+
+#### 🖥️ Módulo `os`
+- `os.arch()` – Mostra a arquitetura do sistema operacional (x64 ou x32)  
+- `os.cpus()` – Informações sobre os processadores  
+- `os.totalmem()` – Memória total em bytes  
+- `os.freemem()` – Memória RAM livre  
+- `os.networkInterfaces()` – Informações sobre as interfaces de rede
+
+#### 📂 Módulo `path`
+- `path.dirname()` – Nome do diretório  
+- `path.basename()` – Nome do arquivo  
+- `path.extname()` – Extensão do arquivo  
+- `path.join()` – Combina caminhos (diretório + arquivo)  
+- `path.resolve()` – Caminho absoluto do arquivo
+
+#### 🔐 Módulo `crypto`
+O módulo `crypto` fornece funcionalidades de **criptografia**, como a criação de *hash* para segurança de dados.
+
+---
+
+📌 *Este repositório será atualizado conforme novos tópicos forem sendo estudados.*
