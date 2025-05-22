@@ -30,4 +30,7 @@
 #####                        - path.extName (Extensão do arquivo)
 #####                        - path.join (Caminho combinado (Dir + File))
 #####                        - path.resolve (Caminho absoluto do arquivo (C:\Users\...\...\))
+<<<<<<< HEAD
 #####
+=======
+>>>>>>> b6347172d2a3d7c998b16779da3b4692c200f10d

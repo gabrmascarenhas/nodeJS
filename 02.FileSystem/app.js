@@ -2,9 +2,13 @@
 // const fs = require('fs');   // forma antiga
 import fs from 'fs';   // precisa add "type": "module" (package.json)
 
-const nomeArquivo = "exemplo.txt";
 const conteudo = " {Escrevendo em um arquivo com Node.js (utf-8 => (ç) (ã) }";
-const novoConteudo = " { Parte Adicionada por appendFile}\n ";
+const newDirec = "NewDirectory";
+//  Caso for preciso criar um  exemplo em uma pasta que irá ser criada:
+// const nomeArquivo = newDirec + "/exemplo.txt";
+const nomeArquivo = 'exemplo.txt';
+const novoConteudo = " { Parte Adicionada por appendFile }\n ";
+
 
 // Criar um arquivo
 function createFile() {
@@ -50,7 +54,7 @@ function removeFile(){
 }
 
 // Criar um diretório 
-const newDirec = "NewDirectory";
+
 function createDir() {
 
 fs.mkdir(newDirec, {recursive: true}, (erro) => {
@@ -79,4 +83,4 @@ function removeDir(){
 // addContent();
 // removeFile();
 // createDir();
-removeDir();
+// removeDir();
