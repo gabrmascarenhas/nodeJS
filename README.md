@@ -45,7 +45,12 @@ Estudo de três módulos nativos do Node.js: `os`, `path` e `crypto`.
 - `path.resolve()` – Caminho absoluto do arquivo
 
 #### 🔐 Módulo `crypto`
-O módulo `crypto` fornece funcionalidades de **criptografia**, como a criação de *hash* para segurança de dados.
+O módulo `crypto` fornece funcionalidades de **criptografia**, como a criação de *hashes* para segurança de dados.
+
+- `crypto.createHash()` – Cria um hash com base no algoritmo escolhido (como SHA-256, SHA-512 etc.)  
+- `crypto.createHmac()` – Similar ao `createHash()`, mas inclui uma chave secreta para maior segurança (HMAC)  
+- `bcrypt.hash()` – Usa o pacote externo `bcrypt` para aplicar múltiplas rodadas de hashing com *salt* e *cost*, oferecendo maior segurança para senhas
+-`bcrypt.compare()` – Compara se a senha informada coincide com algum hash armazenado 
 
 ---
 
