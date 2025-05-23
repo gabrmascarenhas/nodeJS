@@ -8,7 +8,7 @@ Este repositório tem como objetivo armazenar os projetos desenvolvidos durante 
 
 ### 📌 01. ServerNode
 **Descrição:**  
-Primeira criação de um servidor utilizando **Node.js**.
+Criação de um servidor utilizando **Node.js**.
 
 ---
 
@@ -30,22 +30,21 @@ Explora diversas funcionalidades do módulo `fs` (File System):
 **Descrição:**  
 Estudo de três módulos nativos do Node.js: `os`, `path` e `crypto`.
 
-#### 🖥️ Módulo `os`
+#### 🖥️ Módulo `os` : Relacionado com o **Sistema** **Operacional** do usuário.
 - `os.arch()` – Mostra a arquitetura do sistema operacional (x64 ou x32)  
 - `os.cpus()` – Informações sobre os processadores  
 - `os.totalmem()` – Memória total em bytes  
 - `os.freemem()` – Memória RAM livre  
 - `os.networkInterfaces()` – Informações sobre as interfaces de rede
 
-#### 📂 Módulo `path`
+#### 📂 Módulo `path` : Relacionado com **arquivos** e **diretórios**.
 - `path.dirname()` – Nome do diretório  
 - `path.basename()` – Nome do arquivo  
 - `path.extname()` – Extensão do arquivo  
 - `path.join()` – Combina caminhos (diretório + arquivo)  
 - `path.resolve()` – Caminho absoluto do arquivo
 
-#### 🔐 Módulo `crypto`
-O módulo `crypto` fornece funcionalidades de **criptografia**, como a criação de *hashes* para segurança de dados.
+#### 🔐 Módulo `crypto` : Fornece funcionalidades de **criptografia**.
 
 - `crypto.createHash()` – Cria um hash com base no algoritmo escolhido (como SHA-256, SHA-512 etc.)  
 - `crypto.createHmac()` – Similar ao `createHash()`, mas inclui uma chave secreta para maior segurança (HMAC)  
