@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Gabriel Mascarenhas",
+    "email": "gabriel@gabriel.com",
+    "password": "$2b$10$Q/VBX/bRFJxHhYtGdCTKEOPb73ur1XZNh9Tsa84ZZwFEGjhnfbpk6",
+    "createdAt": "27/05/2025",
+    "updatedAt": "27/05/2025"
+  },
+  {
+    "id": "08ad6fab-62ee-47c0-8bef-4e9738796211",
+    "name": "Gabriel Mascarenhas",
+    "email": "gabriel@gabr.com",
+    "password": "$2b$10$ILM8B8imn8O0nEzFrN2CH.M6i70yRCiKz3hvtlk3/ovnlLzBc6V6.",
+    "createdAt": "27/05/2025",
+    "updatedAt": "27/05/2025"
+  }
+]

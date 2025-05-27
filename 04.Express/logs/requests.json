@@ -1,0 +1,47 @@
+[
+  {
+    "date": "27/05/2025",
+    "metodo": "GET",
+    "url": "/"
+  },
+  {
+    "date": "27/05/2025",
+    "metodo": "GET",
+    "url": "/testefinalpqsouguri"
+  },
+  {
+    "date": "27/05/2025",
+    "metodo": "POST",
+    "url": "/api/routes"
+  },
+  {
+    "date": "27/05/2025",
+    "metodo": "POST",
+    "url": "/api/routes",
+    "body": {
+      "nome": "Gabriel Mascarenhas",
+      "email": "gabriel@gabriel.com",
+      "senha": "senhaforte"
+    }
+  },
+  {
+    "date": "27/05/2025",
+    "metodo": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Gabriel Mascarenhas",
+      "email": "gabriel@gabriel.com",
+      "senha": "senhaforte"
+    }
+  },
+  {
+    "date": "27/05/2025",
+    "metodo": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Gabriel Mascarenhas",
+      "email": "gabriel@gabr.com",
+      "senha": "senhaforte"
+    }
+  }
+]

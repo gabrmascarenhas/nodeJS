@@ -28,7 +28,7 @@ router.post("/", async (request, response) => {
     try {
         // Busca os usuários existentes
         const data = fs.readFileSync(usersFile, "utf-8");
-        const users = JSON.parse(data);
+        const users = JSON.parse(data || "[]");
 
         // Verifica se o E-mail já existe
         const EmailExiste = users.find((user) => user.email === email);
@@ -43,8 +43,9 @@ router.post("/", async (request, response) => {
         const hashedPassword = await bcrypt.hash(senha, 10);
 
         // Cria um novo usuário
+        const id = uuidv4();
         const newUser = {
-            id: uuidv4,
+            uid: id,
             name: nome,
             email: email,
             password: hashedPassword,

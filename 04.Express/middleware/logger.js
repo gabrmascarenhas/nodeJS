@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 const __fileName = fileURLToPath(import.meta.url);
 const __dirName = path.dirname(__fileName);
 
-const logsDir = path.join(__dirName, '.../logs');
+const logsDir = path.join(__dirName, '../logs');
 const logFile = path.join(logsDir, 'requests.json');
 
 function ensureLogfile() {
@@ -27,7 +27,7 @@ function logger(request, reponse, next){
         url: request.url,
         body: request.body
     };
-}
+
 console.log(`[${logData.date}] [${logData.metodo}] ${logData.url}`);
 
 fs.readFile(logFile, "utf-8", (err, data) => {
@@ -43,6 +43,7 @@ fs.readFile(logFile, "utf-8", (err, data) => {
     fs.writeFile(logFile, JSON.stringify(logs, null, 2), (err) => {
         if (err){ console.error("Erro ao salvar log: ", err);}
     });
-});
-
+})
+        next();
+}
 export default logger;

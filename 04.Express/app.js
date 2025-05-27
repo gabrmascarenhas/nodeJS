@@ -1,22 +1,22 @@
 
-import express from 'express';
-import userRoutes from "./routes/userRoutes.js";
-import logger from './middleware/logger.js'
+    import express from 'express';
+    import userRoutes from "./routes/userRoutes.js";
+    import logger from './middleware/logger.js'
 
-const app = express();
+    const app = express();
 
-//Middlewares
-app.use(express.json());
-app.use(logger);
+    //Middlewares
+    app.use(express.json());
+    app.use(logger);
 
-//Routes
-app.use('/api/users', userRoutes);
+    //Routes
+    app.use('/api/users', userRoutes);
 
-//Server
-const host = "localhost";
-const port = 3000;
+    //Server
+    const host = "localhost";
+    const port = 3300;
 
-app.listen(port, () => {
-    console.log("Servidor rodando em https://loccalhost:3300");
-    console.log(`Servidor rodando em: https://${host}:${port}`);
-});
+    app.listen(port, () => {
+        // console.log("Servidor rodando em https://loccalhost:3300");
+        console.log(`Servidor rodando em: http://${host}:${port}`);
+    });
