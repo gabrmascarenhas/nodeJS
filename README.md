@@ -51,6 +51,20 @@ Estudo de três módulos nativos do Node.js: `os`, `path` e `crypto`.
 - `bcrypt.hash()` – Usa o pacote externo `bcrypt` para aplicar múltiplas rodadas de hashing com *salt* e *cost*, oferecendo maior segurança para senhas
 - `bcrypt.compare()` – Compara se a senha informada coincide com algum hash armazenado 
 
----
+### 📌 04. Express  
+**Descrição:**  
+Criação de um projeto de cadastro com o framework **Express.js**.
+#### Funcionalidades abordadas:
+
+- `express.Router()` – Criação e organização de rotas em módulos separados  
+- `router.post()` – Cadastro de usuários via requisição POST  
+- Validação de dados – Verificação de campos obrigatórios (nome, email e senha)  
+- `bcrypt.hash()` – Geração de hash seguro para senhas  
+- `fs.readFileSync` e `fs.writeFileSync` – Leitura e escrita de dados em arquivo JSON  
+- Verificação de e-mails duplicados – Prevenção de cadastros repetidos  
+- `uuidv4()` – Geração de identificadores únicos para usuários  
+- Exclusão de dados sensíveis – Remoção da senha da resposta enviada ao cliente  
+- Tratamento de erros – Respostas apropriadas em caso de falhas na execução
+
 
 📌 *Este repositório será atualizado conforme novos tópicos forem sendo estudados.*
