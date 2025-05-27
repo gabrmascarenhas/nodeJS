@@ -68,7 +68,7 @@ Criação de um projeto de cadastro com o framework **Express.js**.
 - Exclusão de dados sensíveis – Remoção da senha da resposta enviada ao cliente  
 - Tratamento de erros – Respostas apropriadas em caso de falhas na execução
 #### Arquitetura de diretórios:
-`cadastro-express/
+cadastro-express/
 │
 ├── app.js
 │
@@ -82,6 +82,6 @@ Criação de um projeto de cadastro com o framework **Express.js**.
 │   └── users.json
 │
 └── logs/
-    └── requests.json` (gitignore)
+    └── requests.json (gitignore)
 
 📌 *Este repositório será atualizado conforme novos tópicos forem sendo estudados.*
