@@ -2,13 +2,13 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import bcrypt from "bcrypt";
-// import { uuidv4 as uid } from "uuid";
 import { v4 as uuidv4 } from "uuid";
-// const { v4: uuidv4 } = require('uuid');
+import { fileURLToPath } from "url";
 
 const router = express.Router();
-const usersFile = path.join(_dirname, "../data/user.json");
-
+const __fileName = fileURLToPath(import.meta.url);
+const __dirName = path.dirname(__fileName);
+const usersFile = path.join(__dirName, '../data/users.json')
 // Se o arquivo não existir, cria
 if (!fs.existsSync(usersFile)) {
     fs.writeFileSync(usersFile, "[]");
@@ -31,9 +31,9 @@ router.post("/", async (request, response) => {
         const users = JSON.parse(data);
 
         // Verifica se o E-mail já existe
-        const isEmail = users.find((user) => user.email === email);
+        const EmailExiste = users.find((user) => user.email === email);
 
-        if (isEmail) {
+        if (EmailExiste) {
             return response.status(409).json({
                 erro: "E-mail já cadastrado"
             });
@@ -44,7 +44,6 @@ router.post("/", async (request, response) => {
 
         // Cria um novo usuário
         const newUser = {
-            // id: uid(),
             id: uuidv4,
             name: nome,
             email: email,
