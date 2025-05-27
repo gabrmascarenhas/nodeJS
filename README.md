@@ -69,7 +69,7 @@ Criação de um projeto de cadastro com o framework **Express.js**.
 - Tratamento de erros – Respostas apropriadas em caso de falhas na execução
 #### Arquitetura de diretórios:
 cadastro-express/
-
+|
 ├── app.js  
 ├── middleware/  
 │   └── logger.js  
