@@ -11,8 +11,7 @@ function SignUpUser() {
     const senha = formCad.senha.value;
 
     if (!nome || !email || !senha) {
-        alert("Preencha os campos.");
-        return;
+
     }
 
     const host = 'localhost';
@@ -37,6 +36,17 @@ function SignUpUser() {
         }
     })
     .catch(() => {
-        
+        mostrarMensagem("Erro ao acessar API");
     });
+}
+const toast = document.querySelector('.toast');
+
+function mostrarMensagem(mensagem, duracao = 3000) {
+    toast.textContent = mensagem;
+    toast.classList.add('show');
+
+    // Remove o toast após N segundos
+    setTimeout(() => {
+        toast.classList.remove('show');
+    }, duracao); // 1 segundo == 1000 milis
 }

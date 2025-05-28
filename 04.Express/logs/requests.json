@@ -293,5 +293,70 @@
       "email": "gdmoura412@gmail.com",
       "senha": "asdasdadasd"
     }
+  },
+  {
+    "date": "28/05/2025",
+    "metodo": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "aasdadsad@asdasd.com",
+      "email": "asdadsad@asdasd.com",
+      "senha": "asdadsad@asdasd.com"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "metodo": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "aasdadsad@asdasd.com",
+      "email": "asdadsad@asdasd.com",
+      "senha": "asdadsad@asdasd.com"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "metodo": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "metodo": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "gabra",
+      "email": "gabra@ga.com",
+      "senha": "asdadsad@asdasd.com"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "metodo": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "metodo": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "",
+      "email": "",
+      "senha": ""
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "metodo": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "metodo": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "",
+      "email": "",
+      "senha": ""
+    }
   }
 ]

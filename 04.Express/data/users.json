@@ -29,5 +29,21 @@
     "password": "$2b$10$H9QfvFn77t5o61kx0iN.X.SwAYZ7xzfI2vioFNy/RxuP/ekZ7GAhK",
     "createdAt": "28/05/2025",
     "updatedAt": "28/05/2025"
+  },
+  {
+    "uid": "d3178303-6859-423f-87c0-6140cbadc171",
+    "nome": "aasdadsad@asdasd.com",
+    "email": "asdadsad@asdasd.com",
+    "password": "$2b$10$BenrNJ5m0JFCKw29IChfie87u2KO99juTFn7YFQ1TAV8vOJIsraUq",
+    "createdAt": "28/05/2025",
+    "updatedAt": "28/05/2025"
+  },
+  {
+    "uid": "5adf92a3-7266-42c0-a7bc-47ecda65baca",
+    "nome": "gabra",
+    "email": "gabra@ga.com",
+    "password": "$2b$10$AMBZ91rkoq788XnlO/1Nz.UZXs3NNJQ8Li0Z4mqgJttSWyJiNU5q.",
+    "createdAt": "28/05/2025",
+    "updatedAt": "28/05/2025"
   }
 ]
