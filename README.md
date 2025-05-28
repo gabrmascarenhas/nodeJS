@@ -79,6 +79,10 @@ cadastro-express/
 │   └── users.json  
 └── logs/  
     └── requests.json  (adicionado ao .gitignore)
+---
 
+### 📌 05. Projeto  
+**Descrição:**  
+Implementação do 04.Express em um projeto de cadastro completo, usando CORS e conseguindo modificar, criar e salvar usuários de um cadastro, vindo de uma aba diferente e acessando o servidor pelo http://localhost:3300.
 
 📌 *Este repositório será atualizado conforme novos tópicos forem sendo estudados.*
